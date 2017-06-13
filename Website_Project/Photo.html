@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
+    <link rel="stylesheet" href="StyleSheet.css" >
+    <script src = "Navigate.js"></script>
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a class="closebtn" style="cursor:pointer" onclick="closeNav('mySidenav')">&times;</a>
+      <a href="index.html" target="_self">Home</a>
+      <a style="cursor:pointer" onclick="openNav('mySidenav2')">About Us</a>
+      <a style="cursor:pointer" onclick="openNav('mySidenav3')">Program</a>
+      <a style="cursor:pointer" onclick="openNav('mySidenav4')">Apply</a>
+      <a style="cursor:pointer" onclick="openNav('FinancialAidSub')">Financial Aid</a>
+      <a style="cursor:pointer" onclick="openNav('TravelInfoSub')">Travel Info</a>
+      <a style="cursor:pointer" onclick="openNav('ContactUsSub')">Contact Us</a>
+    </div>
+
+    <div id="mySidenav2" class="sidenav">
+      <a class="closebtn" style="transform:scale(1, 1); cursor:pointer" onclick="goBack('mySidenav2')">&#8678;</a>
+      <a href="AboutUs.html" target="_self">Why China?</a>
+      <a href="Photo.html" target="_self">Photos</a>
+      <a href="FAQ.html" target="_self">FAQs</a>
+      <a href="HostInstitutions.html" target="_self">Host Institutions</a>
+    </div>
+
+    <div id="mySidenav3" class="sidenav">
+      <a class="closebtn" style="transform:scale(1, 1); cursor:pointer" onclick="goBack('mySidenav3')">&#8678;</a>
+      <a href="Announcement.html" target="_self">Announcement</a>
+      <a href="Itinerary.html" target="_self">Itinerary</a>
+      <a href="Coursework.html" target="_self">Coursework</a>
+      <a href="Side_Trips.html" target="_self">Side Trips</a>
+      <a href="RoomBoard.html" target="_self">Room & Board</a>
+    </div>
+
+    <div id="mySidenav4" class="sidenav">
+      <a class="closebtn" style="transform:scale(1, 1); cursor:pointer" onclick="goBack('mySidenav4')">&#8678;</a>
+      <a href="Howto.html" target="_self">How To Apply</a>
+      <a href="CostPayment.html" target="_self">Cost & Payment</a>
+    </div>
+
+    <div id="FinancialAidSub" class="sidenav">
+      <a class="closebtn" style="transform:scale(1, 1); cursor:pointer" onclick="goBack('FinancialAidSub')">&#8678;</a>
+      <a href="FinancialAid.html" target="_self">Financial Aid</a>
+      <a href="Scholarships.html" target="_self">Scholarships</a>
+      <a href="StudentLoan.html" target="_self">Student Loans</a>
+    </div>
+
+    <div id="TravelInfoSub" class="sidenav">
+      <a class="closebtn" style="transform:scale(1, 1); cursor:pointer" onclick="goBack('TravelInfoSub')">&#8678;</a>
+      <a href="TravelInfo.html" target="_self">Passport & Visa</a>
+      <a href="TripFAQs.html" target="_self">Trip FAQs</a>
+      <a href="Sabbath.html" target="_self">Sabbath & Kosher Food</a>
+      <a href="Halal.html" target="_self">Halal Food</a>
+    </div>
+
+    <div id="ContactUsSub" class="sidenav">
+      <a class="closebtn" style="transform:scale(1, 1); cursor:pointer" onclick="goBack('ContactUsSub')">&#8678;</a>
+      <a href="ContactUs.html" target="_self">Contact Info</a>
+      <a href="https://www.facebook.com/cunybc.chinaprogram" target="_self">Visit Us On FB</a>
+      <a href="mailto:CUNYinChina@brooklyn.cuny.edu">Email Us</a>
+    </div>
+    
+    <div class="topmenu">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav('mySidenav')">&#9776;</span>
+      <h1 id="logo">
+        Study In China
+      </h1>
+    </div>
+    <div class="secondbar">
+      &emsp;Photos
+    </div>
+    <h1 id="photoHeading">Photos</h1>
+    <div id="photoset">
+      <h2 id="photoHeading2">
+        Beijing
+      </h2>
+      <div class="gallery">
+        <a target="_blank" href="peking-1908173_1920.jpg">
+          <img src="peking-1908173_1920.jpg">
+        </a>
+        <div class="desc">
+          <p>
+            Forbidden City
+          </p>
+        </div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="beijing-1798593_1920.jpg">
+          <img src="beijing-1798593_1920.jpg">
+        </a>
+        <div class="desc">
+          <p>
+             Temple of Heaven
+          </p>
+        </div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="ncient-1866754_1920.jpg">
+          <img src="ancient-1866754_1920.jpg" style="height:200px">
+        </a>
+        <div class="desc">
+          <p>
+             Tiananmen Square
+          </p>
+        </div>
+      </div>
+      
+      <h2 id="photoHeading2">
+        Xi'an
+      </h2>
+      <div class="gallery">
+        <a target="_blank" href="terracotta-army-1864972_1920.jpg">
+          <img src="terracotta-army-1864972_1920.jpg" style="height:200px">
+        </a>
+        <div class="desc">
+          <p>
+            Terracotta army
+          </p>
+        </div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="xian-1247992_1920.jpg">
+          <img src="xian-1247992_1920.jpg" style="height:200px">
+        </a>
+        <div class="desc">
+          <p>
+            City Wall
+          </p>
+        </div>
+      </div>
+      
+      <h2 id="photoHeading2">
+        NanJing
+      </h2>
+      <div class ="gallery">
+        <a target="_blank" href="china-347304_1920.jpg">
+          <img src="china-347304_1920.jpg" style="height:200px">
+        </a>
+        <div class="desc">
+          <p>
+            NanJing tv tower
+          </p>
+        </div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="fountain-680692_1920.jpg">
+           <img src="fountain-680692_1920.jpg" style="height:200px">
+        </a>
+         <div class="desc">
+          <p>
+             Fountain In East NanJing
+          </p>
+        </div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="jiangsu-347303_1920.jpg">
+          <img src="jiangsu-347303_1920.jpg" style="height:200px">
+        </a>
+        <div class="desc">
+          <p>
+            Statue of Hero
+          </p>
+        </div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="nanjing-1373206_1920.jpg">
+          <img src="nanjing-1373206_1920.jpg" style="height:200px">
+        </a>
+        <div class="desc">
+          <p>
+            Confucius Temple
+          </p>
+        </div>
+      </div> 
+      <div class="gallery">
+        <a target="_blank" href="sixdynasty.jpg">
+          <img src="sixdynasty.jpg" style="height:200px">
+        </a>
+        <div class="desc">
+          <p>
+            Six Dynasties
+          </p>
+        </div>
+      </div> 
+      
+      <h2 id="photoHeading2">
+        Shanghai:
+      </h2>
+      <div class="gallery">
+        <a target="_blank" href="shanghai-673087_1920.jpg">
+          <img src="shanghai-673087_1920.jpg" style="height:200px">
+        </a>
+        <div class="desc">
+          <p>
+            Shanghai skyline night view
+          </p>
+        </div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="shanghai-730892_1920.jpg">
+          <img src="shanghai-730892_1920.jpg" style="height:200px">
+        </a>
+        <div class="desc">
+          <p>
+            Shanghai Oriental Pearl Tv Tower
+          </p>
+        </div>
+      </div>
+      
+      <h2 id="photoHeading2">
+        FaceBook
+      </h2>
+      <div>
+        <p id="para5">
+          You should go to <a target="_blank" href="https://www.facebook.com/cunybc.chinaprogram">facebook</a> to view more pictures and videos of previous China programs.
+        </p>
+      </div>
+      
+      <h2 id="photoHeading2">
+        Winter Trip
+      </h2>
+      <div>
+        <a id ="para5" target="_blank" href="https://share.shutterfly.com/share/received/welcome.sfly?fid=39751e9a6bedb3bc&sid=8AcuHLZq1aOHEg">Ana's & Atifa's pics</a>
+      </div>
+    </div>
+  </body>
+</html>

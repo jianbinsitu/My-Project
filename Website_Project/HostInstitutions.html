@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
+    <link rel="stylesheet" href="StyleSheet.css">
+    <script src = "Navigate.js"></script>
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a class="closebtn" style="cursor:pointer" onclick="closeNav('mySidenav')">&times;</a>
+      <a href="index.html" target="_self">Home</a>
+      <a style="cursor:pointer" onclick="openNav('mySidenav2')">About Us</a>
+      <a style="cursor:pointer" onclick="openNav('mySidenav3')">Program</a>
+      <a style="cursor:pointer" onclick="openNav('mySidenav4')">Apply</a>
+      <a style="cursor:pointer" onclick="openNav('FinancialAidSub')">Financial Aid</a>
+      <a style="cursor:pointer" onclick="openNav('TravelInfoSub')">Travel Info</a>
+      <a style="cursor:pointer" onclick="openNav('ContactUsSub')">Contact Us</a>
+    </div>
+
+    <div id="mySidenav2" class="sidenav">
+      <a class="closebtn" style="transform:scale(1, 1); cursor:pointer" onclick="goBack('mySidenav2')">&#8678;</a>
+      <a href="AboutUs.html" target="_self">Why China?</a>
+      <a href="Photo.html" target="_self">Photos</a>
+      <a href="FAQ.html" target="_self">FAQs</a>
+      <a href="HostInstitutions.html" target="_self">Host Institutions</a>
+    </div>
+
+    <div id="mySidenav3" class="sidenav">
+      <a class="closebtn" style="transform:scale(1, 1); cursor:pointer" onclick="goBack('mySidenav3')">&#8678;</a>
+      <a href="Announcement.html" target="_self">Announcement</a>
+      <a href="Itinerary.html" target="_self">Itinerary</a>
+      <a href="Coursework.html" target="_self">Coursework</a>
+      <a href="Side_Trips.html" target="_self">Side Trips</a>
+      <a href="RoomBoard.html" target="_self">Room & Board</a>
+    </div>
+
+    <div id="mySidenav4" class="sidenav">
+      <a class="closebtn" style="transform:scale(1, 1); cursor:pointer" onclick="goBack('mySidenav4')">&#8678;</a>
+      <a href="Howto.html" target="_self">How To Apply</a>
+      <a href="CostPayment.html" target="_self">Cost & Payment</a>
+    </div>
+
+    <div id="FinancialAidSub" class="sidenav">
+      <a class="closebtn" style="transform:scale(1, 1); cursor:pointer" onclick="goBack('FinancialAidSub')">&#8678;</a>
+      <a href="FinancialAid.html" target="_self">Financial Aid</a>
+      <a href="Scholarships.html" target="_self">Scholarships</a>
+      <a href="StudentLoan.html" target="_self">Student Loans</a>
+    </div>
+
+    <div id="TravelInfoSub" class="sidenav">
+      <a class="closebtn" style="transform:scale(1, 1); cursor:pointer" onclick="goBack('TravelInfoSub')">&#8678;</a>
+      <a href="TravelInfo.html" target="_self">Passport & Visa</a>
+      <a href="TripFAQs.html" target="_self">Trip FAQs</a>
+      <a href="Sabbath.html" target="_self">Sabbath & Kosher Food</a>
+      <a href="Halal.html" target="_self">Halal Food</a>
+    </div>
+
+    <div id="ContactUsSub" class="sidenav">
+      <a class="closebtn" style="transform:scale(1, 1); cursor:pointer" onclick="goBack('ContactUsSub')">&#8678;</a>
+      <a href="ContactUs.html" target="_self">Contact Info</a>
+      <a href="https://www.facebook.com/cunybc.chinaprogram" target="_self">Visit Us On FB</a>
+      <a href="mailto:CUNYinChina@brooklyn.cuny.edu">Email Us</a>
+    </div>
+    
+    <div class="topmenu">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav('mySidenav')">&#9776;</span>
+      <h1 id="logo">
+        Study In China
+      </h1>
+    </div>
+    <div class="secondbar">
+      &emsp;Host Institutions
+    </div>
+    <div class="body">
+      <h1 id="heading1">Host Institutions</h1>
+      <p id="para4" style="text-align:center; width:73%">
+        &emsp;After touring those important historic and cultural sites in Beijing and Xi’an, we arrive in Nanjing where we stay for about 2 weeks and half--we take Nanjing University and Nanjing Normal University as our host institutions.
+
+
+        <br><br>&emsp;The program director has good personal connections with many colleges and universities in each of the Chinese cities where we will visit for study and cultural excursions. Our students can have easy access to any of those universities if we have the need.
+
+
+
+        <br><br>&emsp;However, we do not stay in campus dorms, as their conditions are not what we want to have. In each of the cities, the travel agencies always pick comfortable star-rated commercial hotels for us, where we can have tasty breakfast every morning (included in the program), nice restaurants, 24/7 security guards, room service (maids cleaning our rooms and making the bed every morning), etc. Such benefits are not to be expected in dorms.
+        
+        
+        <br><br>The following are some Chinese campuses available for us.
+      </p>
+      <ul id="para4">
+        <p style="text-align:center">
+          In Beijing: 
+        </p>
+        <li id="list2"><a href="http://www.pku.edu.cn/">Peking University</a></li>
+        <li id="list2"><a href="http://www.ruc.edu.cn/">Renmin University of China</a></li>
+        <li id="list2"><a href="http://www.cufe.edu.cn/">China Central University of Economics and Finance</a></li>
+        <li id="list2"><a href="http://www.blcu.edu.cn/blcu.asp">Beijing Language & Culture University</a></li>
+        <li id="list2">North China University of Technology</li>
+      </ul>
+      <ul id="para4">
+        <p style="text-align:center">
+          In Xi'an:
+        </p>
+        <li id="list2"><a href="http://www.xaiu.edu.cn/">Xi’an International University</a></li>
+        <li id="list2">Northwestern Polytechnical University</li>
+        <li id="list2">Northwestern University</li>
+      </ul>
+      <ul id="para4">
+        <p style="text-align:center">
+          In Nanjing:
+        </p>
+        <li id="list2"><a href="https://www.nju.edu.cn/cps/site/njueweb/fg/index.php">Nanjing University</a></li>
+        <li id="list2"><a href="http://english.njue.edu.cn/">Naning University of Finance & Economics</a></li>
+        <li id="list2"><a href="http://english.njust.edu.cn/">Nanjing University of Science and Technology</a></li>
+        <li id="list2"><a href="http://www.cpu.edu.cn/">China Pharmaceutical University</a></li>
+        <li id="list2"><a href="http://www.njnu.edu.cn/">Nanjing Normal University</a></li>
+        <li id="list2"><a href="http://www.njarti.edu.cn/">Nanjing University of The Arts</a></li>
+        <li id="list2">Jiangsu Open University</li>
+        <br><br><img id="image" src="Nanda-002.jpg">
+        <img id="image" src="Nanda-004.jpg">
+        <img id="image" src="Nanda-005.jpg">
+      </ul>
+      <ul id="para4">
+        <p style="text-align:center">
+          In Yangzhou:
+        </p>
+        <li id="list2"><a href="http://english.yzu.edu.cn/">Yangzhou University</a></li>
+      </ul>
+      <ul id="para4">
+        <p style="text-align:center">
+          In Suzhou:
+        </p>
+        <li id="list2"><a href="http://www.suda.edu.cn/">Soochow University</a></li>
+        <li id="list2"><a href="http://ic.ruc.edu.cn/">China Renmin University-Suzhou International College</a></li>
+      </ul>
+      <ul id="para4">
+        <p style="text-align:center">
+          In Shanghai:
+        </p>
+        <li id="list2"><a href="http://www.shu.edu.cn/IndexPage.html"> ShangHai University</a></li>
+        <li id="list2">Shanghai University of Political Science and Law</li>
+        <li id="list2"><a href="http://www.ecnu.edu.cn/">East China Normal University</a></li>
+        <li id="list2">Fudan University</li>
+        <br><br><img id="image" src="Fudan-002.jpg">
+      </ul>
+        <ul id="para4">
+          <p style="text-align:center">
+          In Hangzhou:
+          </p>
+          <li id="list2"><a href="http://www.zjgsu.edu.cn/english/">Zhejiang Gongshang University (earliest Chinese business school)</a></li> 
+        </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
+    <link rel="stylesheet" href="StyleSheet.css">
+    <script src = "Navigate.js"></script>
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a class="closebtn" style="cursor:pointer" onclick="closeNav('mySidenav')">&times;</a>
+      <a href="index.html" target="_self">Home</a>
+      <a style="cursor:pointer" onclick="openNav('mySidenav2')">About Us</a>
+      <a style="cursor:pointer" onclick="openNav('mySidenav3')">Program</a>
+      <a style="cursor:pointer" onclick="openNav('mySidenav4')">Apply</a>
+      <a style="cursor:pointer" onclick="openNav('FinancialAidSub')">Financial Aid</a>
+      <a style="cursor:pointer" onclick="openNav('TravelInfoSub')">Travel Info</a>
+      <a style="cursor:pointer" onclick="openNav('ContactUsSub')">Contact Us</a>
+    </div>
+
+    <div id="mySidenav2" class="sidenav">
+      <a class="closebtn" style="transform:scale(1, 1); cursor:pointer" onclick="goBack('mySidenav2')">&#8678;</a>
+      <a href="AboutUs.html" target="_self">Why China?</a>
+      <a href="Photo.html" target="_self">Photos</a>
+      <a href="FAQ.html" target="_self">FAQs</a>
+      <a href="HostInstitutions.html" target="_self">Host Institutions</a>
+    </div>
+
+    <div id="mySidenav3" class="sidenav">
+      <a class="closebtn" style="transform:scale(1, 1); cursor:pointer" onclick="goBack('mySidenav3')">&#8678;</a>
+      <a href="Announcement.html" target="_self">Announcement</a>
+      <a href="Itinerary.html" target="_self">Itinerary</a>
+      <a href="Coursework.html" target="_self">Coursework</a>
+      <a href="Side_Trips.html" target="_self">Side Trips</a>
+      <a href="RoomBoard.html" target="_self">Room & Board</a>
+    </div>
+
+    <div id="mySidenav4" class="sidenav">
+      <a class="closebtn" style="transform:scale(1, 1); cursor:pointer" onclick="goBack('mySidenav4')">&#8678;</a>
+      <a href="Howto.html" target="_self">How To Apply</a>
+      <a href="CostPayment.html" target="_self">Cost & Payment</a>
+    </div>
+
+    <div id="FinancialAidSub" class="sidenav">
+      <a class="closebtn" style="transform:scale(1, 1); cursor:pointer" onclick="goBack('FinancialAidSub')">&#8678;</a>
+      <a href="FinancialAid.html" target="_self">Financial Aid</a>
+      <a href="Scholarships.html" target="_self">Scholarships</a>
+      <a href="StudentLoan.html" target="_self">Student Loans</a>
+    </div>
+
+    <div id="TravelInfoSub" class="sidenav">
+      <a class="closebtn" style="transform:scale(1, 1); cursor:pointer" onclick="goBack('TravelInfoSub')">&#8678;</a>
+      <a href="TravelInfo.html" target="_self">Passport & Visa</a>
+      <a href="TripFAQs.html" target="_self">Trip FAQs</a>
+      <a href="Sabbath.html" target="_self">Sabbath & Kosher Food</a>
+      <a href="Halal.html" target="_self">Halal Food</a>
+    </div>
+
+    <div id="ContactUsSub" class="sidenav">
+      <a class="closebtn" style="transform:scale(1, 1); cursor:pointer" onclick="goBack('ContactUsSub')">&#8678;</a>
+      <a href="ContactUs.html" target="_self">Contact Info</a>
+      <a href="https://www.facebook.com/cunybc.chinaprogram" target="_self">Visit Us On FB</a>
+      <a href="mailto:CUNYinChina@brooklyn.cuny.edu">Email Us</a>
+    </div>
+    
+    <div class="topmenu">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav('mySidenav')">&#9776;</span>
+      <h1 id="logo">
+        Study In China
+      </h1>
+    </div>
+    
+    <div class="secondbar">
+      &emsp;Coursework
+    </div>
+    
+    <div class="body">
+      <h1 id="heading1">
+        Coursework
+      </h1>
+      <h2 id="heading2">
+        <br>The CUNY-BC China program offers the following possible courses:
+      </h2>
+      <p id="para4">
+        1.ARTD 3108: Art of Ancient China <a href="http://depthome.brooklyn.cuny.edu/bc-china/documents/ARTD3108-Syllabus_000.pdf" target="_self">Syllabus</a>
+        <br>2.BUSN 3175: Asian Business <a href="http://depthome.brooklyn.cuny.edu/bc-china/documents/BUSN3175-Syllabus_001.pdf" target="_self">Syllabus</a>
+        <br>3.CORC 3202: Classical Philosophies of India and China <a href="http://depthome.brooklyn.cuny.edu/bc-china/documents/CORC3202-Syllabus_001.pdf" target="_self">Syllabus</a>   <i style="color:blue;">--- This course satisfies Pathways College Option Requirement</i>
+        <br>4.CORC 3206: Development of the Silk Road <a href="http://depthome.brooklyn.cuny.edu/bc-china/documents/CORC3206-Syllabus_011.pdf" target="_self">Syllabus</a>   <i style="color:blue;">--- This course satisfies Pathways College Option Requirement</i>
+        <br>5.CLAS 1110 (i.e., CORC 1110): Classical Cultures (China) <a href="http://depthome.brooklyn.cuny.edu/bc-china/documents/CLAS1110-syllabus_000.pdf" target="_self">Syllabus</a>  <i style="color:blue;">--- This course satisfies Pathways Flexible Core Requirement</i>
+        <br>6.HIST 3005: The Shaping of the Modern World <a href="http://depthome.brooklyn.cuny.edu/bc-china/documents/HIST3005-syllabus.pdf" target="_self">Syllabus</a>  <i style="color:blue;">--- This course satisfies Pathways Flexible Core World Cultures & Global Issues Requirement</i>
+        <br>7.HIST 3534: Revolutionary China <a href="http://depthome.brooklyn.cuny.edu/bc-china/documents/HIST3534-syllabus.pdf" target="_self">Syllabus</a>
+        <br>8.SPEC 1619: Intercultural Communication <a href="http://depthome.brooklyn.cuny.edu/bc-china/documents/SPEC1619-Syllabus_004.pdf" target="_self">Syllabus</a>
+        <br>9.SPEC 2623: Business Communication (cross-cultural perspectives) <a href="http://depthome.brooklyn.cuny.edu/bc-china/documents/SPEC2623-Syllabus.pdf" target="_self">Syllabus</a>
+        <br>10.CHIN 1010: Beginners Chinese-Level I <a href="http://depthome.brooklyn.cuny.edu/bc-china/documents/CHIN1010-Syllabus_001.pdf" target="_self">Syllabus</a>
+        <br>11.CHIN 1020: Intensive Elementary Chinese-Level II <a href="http://depthome.brooklyn.cuny.edu/bc-china/documents/CHIN1020-Syllabus.pdf" target="_self">Syllabus</a>
+        <br>12.CHIN 1030: Intensive Intermediate Chinese-Level III  <a href="http://depthome.brooklyn.cuny.edu/bc-china/documents/CHIN1030-Syllabus_000.pdf" target="_self">Syllabus</a>
+        <br>13.CHIN 2024: Advanced (Chinese) Language Skills <a href="http://depthome.brooklyn.cuny.edu/bc-china/documents/CHIN2024-Sylllabus_000.pdf" target="_self">Syllabus</a>
+        <br>14.TVRA 3871: Elements of TV Field Production <a href="http://depthome.brooklyn.cuny.edu/bc-china/documents/TVRA3871-Winter2014-Syllabus_000.pdf" target="_self">Syllabus</a>
+        <br>&emsp;-- TVRA 4849: International Documentary Production
+        <br>&emsp;-- TVRA 5010: Independent Projects
+        <br>15.SPEC 7296X - Special Topic Course for Graduate Students
+
+        
+        <br><br>Note: Students can enroll in 1-2 courses (with only one language course). Each course is for 3 credits; But the Chinese courses (levels 1-3) are each for 4 credits; the Advanced Chinese Language Skills is for 3 credits.
+
+
+        <br><br>All courses are taught by Brooklyn College faculty who are experts in the areas of study.
+        <br><br>The courses are subject to sufficient enrollment, approval by Brooklyn College, and faculty availability. Students make their course selections in the Application Form. The final decision about which courses and how many courses can be offered is made 1-2 weeks after the application deadline or about 2 months before departure.
+        <br><br><img id="image" src="BestOfChinaKingdom-2013_htm_m71163fde.jpg">
+        <img id="image" src="China-07.jpg">
+      </p>
+      
+      <h2 id="heading2">
+        E-Permit for CUNY Students outside Brooklyn College:
+      </h2>
+      <p id="para4">
+        Students from other CUNY campuses (such as Baruch, Hunter, City, City Tech, Queens, Lehman, etc) will need to apply for an e-permit. But you do not apply for e-permit until about one week after the application deadline when we have by that time decided what courses will be offered. When applying to our program, you just make your course selections in the application form.
+
+
+        <br><br>During the 4 weeks in China, instruction for the courses is delivered in several venues: site visits, lectures & discussions, and online interactions (e.g., portal.cuny.edu). To ensure that students will be able to complete the coursework with quality and have time for self-exploration and side trips while in China, reading assignments are given a few weeks before departure and some online work also starts before departure.
+        
+        <br><br><img id="image" src="NJ-003.jpg">
+        <img id="image" src="Nanda-004.jpg">
+      </p>
+      <h2 id="heading2">
+        Graduate Students:
+      </h2>
+      <p id="para4">
+        Graduate students may register for a graduate-level Special Topic/Independent Study course (e.g., SPEC 7296X in communication if the student's department can accept the credit of the speech graduate-level course; or one graduate level speical topic/independent study course in the student’s department with approval of his/her department chair or graduate studies director). That graduate-level speical topic/independent study course is to be linked with one relevant undergraduate course offered during the program, but the graduate student(s) will be given extra reading assignments and research work.
+
+
+        <br><br>The graduate student, when deciding to apply to this study in China program, should first discuss a research proposal with the graduate advisor of her/his home department, seek approval from her/his department chair or graduate advisor, and, after being accepted into the program, consult Prof. Lu (the Program Director) at <a href="CUNYinChina@brooklyn.cuny.edu" style="color:blue">CUNYinChina@brooklyn.cuny.edu</a>, so as to develop a research topic related to the student’s area of study.
+        
+        <br><br><img id="image" src="NJ-005.jpg">
+        
+        <br><br><b style="font-size:22px">For sample graduate student research papers, click the following:</b>
+
+        <br><br>1.<a href="http://depthome.brooklyn.cuny.edu/bc-china/extra_files/Syllabus/Frances%20R.%20-%20%20English%20Teaching%20in%20China.pdf" target="_self">English Language Teaching in China</a>
+        <br> 2.<a href="http://depthome.brooklyn.cuny.edu/bc-china/extra_files/Syllabus/Robert%20G-Christ%20and%20Buddha.pdf" target="_self">Comparative Study of Icons of Buddha & Christ</a>
+        <br>3.<a href="http://depthome.brooklyn.cuny.edu/bc-china/extra_files/Syllabus/K.%20Masser.pdf" target="_self">Minnie Vautrin’s Burden-Nanjing, China</a>
+
+        <br><br>(NEW!!)<a href="http://www.brooklyn.cuny.edu/pub/departments/asianstudies/asian_what.htm" target="_self">Asian Studies Minor:</a> It only requires 12 credits. To satisfy those 12 credits requirements, students can choose from many courses in the departments of modern languages, art, economics & business, philosophy, religion, history, speech, political science, theatre, TV/Radio, education, etc. To declare Asian Studies as Minor, please contact Ms. Garrick at 718-951-5225 in 3439 Boylan Hall, or <a href="agarrick@brooklyn.cuny.edu" target="_self">agarrick@brooklyn.cuny.edu</a>
+      </p>
+    </div>
+  </body>
+</html>
