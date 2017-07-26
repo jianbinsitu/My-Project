@@ -1,2 +1,2 @@
 # My-Project
-Some of the project that I have work on.
+Sample code from projects that I have work on.
