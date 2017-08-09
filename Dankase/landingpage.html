@@ -1,0 +1,27 @@
+<script type="text/javascript" src="/assets/customjs/wordcount.js"></script>
+<div>
+    <div class="top">
+        <ng-fader></ng-fader>
+    </div>
+    <div class="BrandHolder">
+        <img class="BrandName" src="/image/dankaselogo.png">
+        <!--<h1 class="BrandName">Dankase</h1>-->
+        <h2 class="slogan">Made by suicidal tendy lover for /r/wallstreetbets</h2>
+        <span class="sub"><i class="fa fa-caret-square-o-down" aria-hidden="true"></i> <u>Subscribe<u></span>
+    </div>
+    <form id="form" class="emailfield" ng-submit="submit()" ng-controller = "store">
+        <div class="form-group emailinput">
+            <input id="email" type="email" class="form-control" placeholder="E-mail" ng-model="Infosubmit.email"></br>
+        </div>
+        <div class="form-group modelinput">
+            <input id="model" type="text" class="form-control" placeholder="Phone Model" ng-model="Infosubmit.model"></br>
+        </div>
+        <div class="form-group commentinput">
+            <textarea id="comment" maxlength="140" row="5" class="form-control" placeholder="Comment" ng-model="Infosubmit.comment"></textarea>
+            <h6 class="pull-right" id="count_message"></h6></br>
+        </div>
+        <div class="form-group">
+            </br><button type="submit" value="Submit" class="btn btn-default button"><b>Subscribe</b></button>
+        </div>
+    </form>
+</div>
